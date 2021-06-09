@@ -1,0 +1,36 @@
+@media all and (min-width:650px){
+    .container{
+        max-width: 635px;
+        border-radius: 8px;
+    }
+
+    .content,
+    .content-2 .col{
+        padding: 40px;
+
+        h1{
+            font-size: 1.5rem;
+        }
+    }
+
+    .content-2{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .content-1{
+
+        h2{
+            font-size: 1.125rem;
+            margin-bottom: 10px;
+        }
+
+        p{
+            font-size: 1rem;
+        }  
+    }
+
+    .col-2 p{
+        opacity: .8;
+    }
+}
